@@ -1,0 +1,44 @@
+\begin{theindex}
+
+  \item {array}
+    \subitem {parc}, \hyperpage{5}
+
+  \indexspace
+
+  \item {download}
+    \subitem {parc}, \hyperpage{5}
+
+  \indexspace
+
+  \item {get\_url}
+    \subitem {parc}, \hyperpage{5}
+
+  \indexspace
+
+  \item {headers}
+    \subitem {parc}, \hyperpage{6}
+
+  \indexspace
+
+  \item {parc}, \hyperpage{5}
+    \subitem {array}, \hyperpage{5}
+    \subitem {download}, \hyperpage{5}
+    \subitem {get\_url}, \hyperpage{5}
+    \subitem {headers}, \hyperpage{6}
+
+  \indexspace
+
+  \item {src/parc.py}, \hyperpage{7}
+  \item {src/xl\_file.py}, \hyperpage{7}
+
+  \indexspace
+
+  \item {writer}
+    \subitem {xl\_file}, \hyperpage{6}
+
+  \indexspace
+
+  \item {xl\_file}, \hyperpage{6}
+    \subitem {writer}, \hyperpage{6}
+
+\end{theindex}
