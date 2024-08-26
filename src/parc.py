@@ -6,7 +6,7 @@ headers = {'User-Agent':
                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'}
 
 def download(url):
-    #Загруpка страницы, получение потока данных для фотграфий
+    #Загрузка страницы, получение потока данных для фотграфий
     resp = requests.get(url,stream=True)
     #запроса к серверу и получения информации по URLl
     r = open('C:\\Users\\tema-\\PycharmProjects\\parcing\\image\\'+url.split('/')[-1], 'wb')
