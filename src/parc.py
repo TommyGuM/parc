@@ -6,16 +6,17 @@ headers = {'User-Agent':
                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'}
 
 def download(url):
-    #Загрузка страницы, получение потока данных для фотграфий
+    """ Функция загрузки страницы, получение потока данных для фотграфий """
     resp = requests.get(url,stream=True)
-    #запроса к серверу и получения информации по URLl
+    ''' запроса к серверу и получения информации по URLl '''
     r = open('C:\\Users\\tema-\\PycharmProjects\\parcing\\image\\'+url.split('/')[-1], 'wb')
-    # циклом осуществляется запись
+    ''' циклом осуществляется запись '''
     for value in resp.iter_content(1024*1024):
         r.write(value)
     r.close()
 
 def get_url():
+
     for count in range(1,7):
         url = f'https://scrapingclub.com/exercise/list_basic/?page={count}'
         response = requests.get(url,headers=headers)
